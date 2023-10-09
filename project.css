@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.signIn_page{
+    background-image: url(WhatsApp\ Image\ 2023-10-06\ at\ 10.17.24\ PM\ \(2\).jpeg);
+    /* background-color: white; */
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signIn_wrapper{
+    /* point */
+    width: 85%;
+    margin: auto;
+    display: flex;
+    height: 80%;
+    border-radius: 10px;   
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.363);
+}
+.signIn_wrapper .left{
+    background: linear-gradient(to left, #2db17c, #46b186);
+    padding: 40px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    z-index: 99;
+}
+
+.signIn_wrapper .left .header{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.signIn_wrapper .left .header .logo {
+    height: 55px;
+    color: black;
+}
+.signIn_wrapper .left .left_body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px   ;
+}
+.signIn_wrapper .left .left_body h2{
+    font-size: 43px;    
+    font-family: sans-serif ;
+    font-weight: 700;
+}
+.signIn_wrapper .left .left_body p {
+    color: #bee2d4;
+}
+.signIn_page .left .left_body .social_icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.signIn_page .left .left_body .social_icon a{
+    background-color: #77c9a7;
+    padding: 9px 13px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.signIn_page .left .left_body .social_icon a i{
+    color: #fff;
+    transition: 0.5s;
+    font-size: 25px;
+}
+.signIn_page .left .left_body .social_icon a:hover{
+    background-color: #fff;
+}
+.signIn_page .left .left_body .social_icon a:hover i{
+    color: brown;
+}
+.signIn_page .left .left_body .bottomText a{
+    font-size: 12px;
+    color: #fff;
+}
+.signIn_wrapper .right_sec{
+    flex: 0.6;
+    padding: 50px;
+    background-color: #fff;
+}
+.signIn_page .right_sec{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 80px;
+    text-align: left; 
+}
+.signIn_page .right_sec h1{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.signIn_page .right_sec p {
+    color: #667966;
+}
+.signIn_page .right_sec .form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.signIn_page .right_sec .form label{
+    font-weight: 600;
+    margin: 7px 0px;
+}
+.signIn_page .right_sec .form input{
+    border: 0px;
+    padding: 10px;
+    outline: none;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.signIn_page .right_sec .preference{
+    display: flex;
+    margin: 10px 0px;
+    align-items: center;
+    gap: 0px;
+}
+.signIn_page .right_sec .preference input{
+    height: 15px;
+    width: 40px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(60, 104, 60);
+}
+.signIn_page .right_sec .form button{
+    background-color: rgb(60, 104, 60);
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.menue{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: sans-serif;
+}
+.menue span{
+    display: flex;
+    padding: 15px 20px;
+    color: white;
+    font: 25px;
+    border-radius: 50px;
+    gap: 10px;
+    cursor: pointer;
+}
+.menue span i {
+    font-size: 25px;
+    font-weight: bolder;
+}
+.menue .headset{
+    background-color: #26C6D9;
+}
+
+.menue .cart {
+    background-color: #9CCB6C;
+}
+
+.menue span a {
+    color: white;
+}
